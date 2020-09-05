@@ -10,22 +10,22 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+locale                   : "ko-KR" #"en-US"
+title                    : "Obj-Kemong's GitHub Blog"
+title_separator          : "|"
+subtitle                 : "Version 1.0" # site tagline that appears below site title in masthead
+name                     : "Obj-Kemong"
+description              : "Obj-Kemong's GitHub Blog"
+url                      : "https://obj-kemong.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/HAEIN_Iron_man_v1.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -90,13 +90,16 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+header:
+  image            : "/assets/images/HAEIN_minians.jpg" 
+  caption          : "Photo credit: [**Unsplash**](https://notefolio.net/)"
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "obj.kemong"
+  avatar           : "/assets/images/HAEIN_Hulk_v1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Hi."
+  location         : "South Korea"
   email            :
   links:
     - label: "Email"
@@ -209,7 +212,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
